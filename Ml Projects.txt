@@ -1,0 +1,30 @@
+Ml Projects
+
+- for creating any ML projects, you need to create an environment first
+- all the packages installed will be available in the same folder as of the environment
+
+
+--> syntax : ( conda create -p [env-name] python==3.8[python version we are using] -y[for approval])
+
+
+#                                                                                                                                                                       
+# To activate this environment, use                                                                                                                                     
+#                                                                                                                                                                       
+#     $ conda activate [env-name/]                                                                                                                                
+#                                                                                                                                                                       
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+If you're pushing to the github (git push -u origin main), then you've to set ""Git Global""
+first check --> git config --global user.name ( if no response then write the next command)
+git config --global user.name "Chandan Malakar"
+then check --> git config --global user.email ( if no response then write the next command)
+git config --global user.email "chandanmalakar6209@gmail.com"
+
+then add a file from the github and name it (.gitignore) and set its language template to (Python)
+it will remove all the files which are not committed
+
+
+the setup.py is responsible for creating the ml application as a package
